@@ -39,4 +39,7 @@ def XOR(x1, x2):
   y = AND(s1, s2)
   return y
 
-XOR(1, 1)
+print("type 0 or 1")
+i1 = int(input("input 1: "))
+i2 = int(input("input 2: "))
+print(XOR(i1, i2))
